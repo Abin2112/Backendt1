@@ -15,7 +15,7 @@ const app = express();
 
 // ✅ CORS Configuration
 const corsOptions = {
-  origin: "http://task-pbqp.vercel.app/", 
+  origin: "https://task-pbqp.vercel.app/", 
   credentials: true,
 };
 app.use(cors(corsOptions));
