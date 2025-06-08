@@ -23,6 +23,8 @@ const db = mysql.createConnection({
   }
 });
 
+console.log('Using DB_USER:', process.env.DB_USER);
+
 db.connect((err) => {
   if (err) {
     console.error('❌ MySQL2 connection error:', {
