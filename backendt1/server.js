@@ -15,7 +15,7 @@ const app = express();
 
 // ✅ CORS Configuration
 const corsOptions = {
-  origin: "http://task-pbqp-ae6mc2kcy-shrutighadi62-gmailcoms-projects.vercel.app", 
+  origin: "http://task-pbqp.vercel.app/", 
   credentials: true,
 };
 app.use(cors(corsOptions));
